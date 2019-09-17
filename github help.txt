@@ -5,3 +5,14 @@ git github 使用说明如下
 3、提交git commit -m 'push error' 要提交的文件名称
 4、git push -u origin master 提交到远程仓库
 
+出现错误的时候 添加origin 
+5、git remote add origin https://github.com/anky07/hellworld 
+出错的话删除origin  git remote rm origin  然后在 git remote add origin https://github.com/anky07/hellworld
+然后在 git push -u origin master 提交到远程仓库 提示成功
+
+本地仓库地址 /e/github/leaningcode
+
+
+
+
+
