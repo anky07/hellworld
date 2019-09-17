@@ -1,0 +1,7 @@
+git github 使用说明如下
+
+1、先在本地仓库建立文件
+2、然后git add .
+3、提交git commit -m 'push error' 要提交的文件名称
+4、git push -u origin master 提交到远程仓库
+
