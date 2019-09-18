@@ -12,6 +12,8 @@ git github 使用说明如下
 
 本地仓库地址 /e/github/leaningcode
 
+cd /e/github/leaningcode 
+
 
 
 
