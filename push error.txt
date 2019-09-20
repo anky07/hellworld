@@ -13,3 +13,11 @@ git pull --rebase origin master
 
 
 9.20 用powershell 上传本地仓库代码到 github 仓库
+
+错误
+fatal: Authentication failed for 'https://github.com/ ...   
+1
+解决方案，重新执行git config命令配置用户名和邮箱即可：
+
+git config -–global user.name "xxx"   
+git config –-global user.email "xxx@xxx.com"  
