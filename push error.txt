@@ -10,3 +10,6 @@ git pull --rebase origin master
 4、执行上面代码后可以看到本地代码库中多了README.md文件，此时再执行语句 git push -u origin master即可完成代码上传到github 问题解决
 
 9.16 终于解决github  push 代码问题 加油加油
+
+
+9.20 用powershell 上传本地仓库代码到 github 仓库
