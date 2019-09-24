@@ -1,0 +1,5 @@
+1、切换到git本地仓库文件目录
+2、git add .
+3、git commit -m “备注信息”
+4、git push 
+不需要使用 git push -u origin master 回提示错误信息 
