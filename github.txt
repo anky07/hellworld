@@ -1,0 +1,7 @@
+github foy centos 连接方法
+
+1、首选要生成ssh 在github段添加ssh key 代码；
+测试 ssh -t git@github.com
+
+2、添加成功后需要 git clone git@github.com:anky07/hellworld.git
+
