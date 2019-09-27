@@ -4,4 +4,5 @@ github foy centos 连接方法
 测试 ssh -t git@github.com
 
 2、添加成功后需要 git clone git@github.com:anky07/hellworld.git
+3、github克隆成功 git add的时候出现错误 反复试验测试 发现 网络有问题 。。。。。。。
 
