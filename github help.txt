@@ -1,21 +1,34 @@
-git github ʹ��˵������
+git github 使用说明如下
 
-1�����ڱ��زֿ⽨���ļ�
-2��Ȼ��git add .
-3���ύgit commit -m 'push error' Ҫ�ύ���ļ�����
-4��git push -u origin master �ύ��Զ�ֿ̲�
+1、先在本地仓库建立文件
+2、然后git add .
+3、提交git commit -m 'push error' 要提交的文件名称
+4、git push -u origin master 提交到远程仓库
 
-���ִ����ʱ�� ����origin 
-5��git remote add origin https://github.com/anky07/hellworld 
-�����Ļ�ɾ��origin  git remote rm origin  Ȼ���� git remote add origin https://github.com/anky07/hellworld
-Ȼ���� git push -u origin master �ύ��Զ�ֿ̲� ��ʾ�ɹ�
+出现错误的时候 添加origin 
+5、git remote add origin https://github.com/anky07/hellworld 
+出错的话删除origin  git remote rm origin  然后在 git remote add origin https://github.com/anky07/hellworld
+然后在 git push -u origin master 提交到远程仓库 提示成功
 
-���زֿ��ַ /e/github/leaningcode
+本地仓库地址 /e/github/leaningcode
 
 cd /e/github/leaningcode 
 
 2019.09.18 ceshi yann !!!!!!!!!!!!!!
 
+总结：其实只需要进行下面几步就能把本地项目上传到Github
+
+　　注意：如果中途弹出输入框让你填写用户名和密码，只需把GitHub的账号和密码填写上即可。
+
+     1、在本地创建一个版本库（即文件夹），通过git init把它变成Git仓库；
+
+     2、把项目复制到这个文件夹里面，再通过git add .把项目添加到仓库；
+
+     3、再通过git commit -m "注释内容"把项目提交到仓库；
+
+     4、在Github上设置好SSH密钥后，新建一个远程仓库，通过git remote add origin https://github.com/guyibang/TEST2.git将本地仓库和远程仓库进行关联；
+
+     5、最后通过git push -u origin master把本地仓库的项目推送到远程仓库（也就是Github）上；（若新建远程仓库的时候自动创建了README文件会报错，解决办法看上面）。
 
 
 
